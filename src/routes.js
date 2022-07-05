@@ -3,7 +3,6 @@ import Inicio from './components/Inicio.vue'
 import Detalle from './components/Detalle.vue'
 import NotFound from './components/NotFound.vue'
 
-
 const routes = [{
         path: '/:pathMatch(.*)*',
         name: 'NotFound',
